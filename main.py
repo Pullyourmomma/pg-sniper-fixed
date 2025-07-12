@@ -88,8 +88,8 @@ def get_last_online_date(random_number):
 
     return formatted_date
 
-def get_user_name(random_number):
-    url = f"https://users.roblox.com/v1/users/{random_number}"
+def get_user_name(amina10bff):
+    url = f"https://users.roblox.com/v1/users/{amina10bff}"
     response = requests.get(url)
     data = response.json()
 
